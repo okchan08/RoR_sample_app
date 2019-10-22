@@ -1,6 +1,6 @@
 <%= provide(:title, "Home") %>
 <% if logged_in? %>
-  <%= render 'micropost_form' %>
+  <%= render 'static_pages/micropost_form' %>
 <% else %>
   <%= render 'signup_btn' %>
 <% end %>
